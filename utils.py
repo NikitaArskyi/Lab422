@@ -11,3 +11,7 @@ def isprime(n):
 		prime = prime and n%i!=0
 		i+=1
 	return prime
+def fivepower(n):
+	while n%5==0:
+		n=n//5
+	return n=1
