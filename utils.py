@@ -11,8 +11,6 @@ def isprime(n):
 		prime = prime and n%i!=0
 		i+=1
 	return prime
-<<<<<<< Updated upstream
-=======
 def fivepower(n):
 	while n%5==0:
 		n=n//5
@@ -21,4 +19,3 @@ def twopower(n):
         while n%2==0:
                 n=n//2
         return n=1
->>>>>>> Stashed changes
